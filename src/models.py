@@ -5,6 +5,7 @@ from typing import List
 
 class LineItem(BaseModel):
     name: str
+    quantity: int
     rate: float
     total: float
 

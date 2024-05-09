@@ -177,6 +177,7 @@ def calculate_earnings(
         line_items.append(
             LineItem(
                 name="Hourly Minimum Top-up",
+                quantity=0,
                 rate=hourly_minimum_amount,
                 total=hourly_minimum_amount,
             )
