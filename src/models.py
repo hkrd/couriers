@@ -1,11 +1,10 @@
-from pydantic import BaseModel, condecimal
+from pydantic import BaseModel
 from datetime import datetime
 from typing import List
 
 
 class LineItem(BaseModel):
     name: str
-    quantity: int
     rate: float
     total: float
 

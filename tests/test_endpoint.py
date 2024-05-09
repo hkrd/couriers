@@ -14,7 +14,7 @@ def test_earnings_endpoint():
     rate_card_id = "platinum_tier"
 
     # Make a POST request to the endpoint
-    response = client.post(f"/earnings/{rate_card_id}", json=activity_log_data)
+    response = client.post(f"api/v1/earnings/{rate_card_id}", json=activity_log_data)
 
     # Verify the status code
     assert response.status_code == 200

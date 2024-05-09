@@ -1,6 +1,6 @@
 from typing import List
-from .models import ActivityLog, EarningsStatement, LineItem
-from .rate_cards import RATE_CARDS
+from src.models import ActivityLog, EarningsStatement, LineItem
+from src.rate_cards import RATE_CARDS
 from datetime import datetime
 from decimal import Decimal
 from collections import defaultdict, Counter
