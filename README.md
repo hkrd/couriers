@@ -1,7 +1,8 @@
 ## Couriers
 App to calculate the earnings of each courier doing deliveries based on which 'Delivery Tier' they are on, determining their earnings based on success rate of deliveries and bonuses.
 
-- Tech Stack:
+Tech Stack:
+
 Python 3.9+
 FastAPI,
 Pydantic,
@@ -10,9 +11,9 @@ Docker
 run with ```uvicorn src.main:app  --reload```
 run tests with ```poetry run pytest```
 
-- Deployed on ```https://couriers-rndb.onrender.com/docs```
+Deployed on ```https://couriers-rndb.onrender.com/docs```
 
-- Usage
+Usage
 
 Use with any of the tiers: ```bronze_tier, silver_tier, gold_tier, platinum_tier``` and example payload:
 
