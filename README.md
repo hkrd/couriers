@@ -17,7 +17,8 @@ Usage
 
 Use with any of the tiers: ```bronze_tier, silver_tier, gold_tier, platinum_tier``` and example payload:
 
-```[
+```
+[
     {
       "route_id": "RT5QHQ6M3A937H",
       "attempt_date_time": "2023-12-18T08:33:18.588934+00:00",
@@ -48,4 +49,5 @@ Use with any of the tiers: ```bronze_tier, silver_tier, gold_tier, platinum_tier
       "attempt_date_time": "2023-12-18T08:45:58.396736+00:00",
       "success": true
     }
-  ]```
+  ]
+```
